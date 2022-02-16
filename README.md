@@ -38,7 +38,7 @@ cd Iris-species-predictor-WebApp
 
 Change your current working directory to this
 
-pip install requirements.txt
+``` pip install requirements.txt
 
 Install the required libraries
 
