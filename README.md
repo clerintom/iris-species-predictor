@@ -42,6 +42,8 @@ pip install requirements.txt
 
 Install the required libraries
 
+python classifier.py(will create pickle(.pkl)file
+
 python iris.py
 
 Run the app and predict away! :)
