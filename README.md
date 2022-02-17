@@ -34,11 +34,12 @@ git clone https://github.com/clerintom/Iris-species-predictor-WebApp
 
 This downloads the repository from Github to your local machine
 
-cd Iris-species-predictor-WebApp
+``` cd Iris-species-predictor-WebApp ```
 
 Change your current working directory to this
 
-``` pip install requirements.txt
+```
+pip install requirements.txt
 
 Install the required libraries
 
@@ -46,7 +47,8 @@ python classifier.py(will create pickle(.pkl)file
 
 python iris.py
 
-Run the app and predict away! :)
+Run the app and predict away! :) 
+```
 
 
 
