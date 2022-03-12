@@ -1,17 +1,22 @@
-# Iris-species-predictor
+# iris-species-predictor
 
 
-### Python Flask web app which predicts the species of Iris flower.
-You can find a live version of the site -> https://iris-speciespredict.herokuapp.com/
+## Python Flask web app which predicts the species of Iris flower.
+You can find a live version of the site in Heroku-> https://iris-speciespredict.herokuapp.com/
 
-It uses trained **Logistic Regression model** 
-These model is trained on local machine and saved using pickle library in Python. Then the saved models are called using Flask.
+It uses trained **Logistic Regression model**
 
-**HTML** is used for the frontend.
+This model is trained on local machine and saved as a pickle file. The saved model is called using Flask.
 
-**How to run locally**
+**Flask** will render the **HTML** page to get the user inputs used for the prediction
+**Gunicorn**  will be used as webserver in heroku 
 
- - Clone the repo
+
+
+
+## How to run locally
+
+- Clone the repo
 ``` 
 git clone https://github.com/clerintom/iris-species-predictor.git
 ```
@@ -21,12 +26,12 @@ git clone https://github.com/clerintom/iris-species-predictor.git
 cd iris-species-predictor 
 ```
 
-- create a virtual environment
+- Create a virtual environment
 ```
 python -m venv venv
 ```
 
-- activate the virtual environment 
+- Activate the virtual environment 
 ```
 #linux
 source env/bin/activate
@@ -44,13 +49,3 @@ pip install -r requirements.txt
 python app.py
 ```
 
-
-
-
-
-
-
-
-
-
-[here]:http://clerin.pythonanywhere.com/
