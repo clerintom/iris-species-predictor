@@ -1,1 +1,1 @@
-web: gunicorn iris:app
+web: gunicorn app:app
