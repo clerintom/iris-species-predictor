@@ -32,10 +32,12 @@ python -m venv venv
 ```
 
 - Activate the virtual environment 
+###### linux
 ```
-#linux
-source env/bin/activate
-# windows
+source venv/bin/activate
+``` 
+###### windows
+```
 venv\Scripts\activate 
 ```
 
